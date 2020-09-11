@@ -17,10 +17,10 @@
 
 | Column        | Type       | Options                        |
 | ------------- | ---------- | ------------------------------ |
-| name          | references | null: false, foreign_key: true |
+| name          | string     | null: false                    |
 | address       | string     | null: false                    |
-| subject       | integer    | null: false                    |
-| message       | string     | null: false                    |
+| subject       | string     | null: false                    |
+| message       | text       | null: false                    |
 
 
 ## parttime テーブル
@@ -33,8 +33,8 @@
 | email         | string     | null: false                    |
 | license table | string     | null: false                    |
 | license back  | string     | null: false                    |
-| Checklist | string         | null: false                    |
-| message       | string     | null: false                    |
+| Checklist     | string     | null: false                    |
+| message       | text       | null: false                    |
 
 
 
